@@ -1,0 +1,40 @@
+{
+  "name": "proprep",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.12.1",
+    "@types/jquery": "^3.5.29",
+    "fontawesome": "^5.6.3",
+    "formik": "^2.4.5",
+    "framer-motion": "^10.18.0",
+    "next": "14.0.4",
+    "playwright": "^1.41.0",
+    "prop-types": "^15.8.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6.21.2",
+    "react-toastify": "^10.0.4",
+    "react-type-animation": "^3.2.0",
+    "react-typewriter-animate": "^1.2.3",
+    "react-typewriter-effect": "^1.1.0",
+    "typewriter-effect": "^2.21.0",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
