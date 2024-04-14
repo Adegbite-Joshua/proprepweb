@@ -19,22 +19,22 @@ export default function Home() {
     setDownloaded(true);
   };
 
-  useEffect(() => {
-    isMountedRef.current = true;
+  // useEffect(() => {
+  //   isMountedRef.current = true;
 
-    if (isMountedRef.current) {
-      handleDownload();
-    }
+  //   if (isMountedRef.current) {
+  //     handleDownload();
+  //   }
 
-    return () => {
-      isMountedRef.current = false;
-    };
-  }, []);
+  //   return () => {
+  //     isMountedRef.current = false;
+  //   };
+  // }, []);
 
   return (
     <div>
     <p>PROPREP</p>
-      {downloaded && <p>Thanks for downloading</p>}
+      <p>Thanks for using Proprep!</p>
     </div>
   );
 }
